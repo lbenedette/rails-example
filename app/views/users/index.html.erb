@@ -1,0 +1,9 @@
+<div>
+  <h2>Users</h2>
+
+  <% @users.each do |user| %>
+    <div>
+      Name: <%= user.name %> | Age: <%= user.age %> | Job: <%= user.job %>
+    </div>
+  <% end %>
+</div>
